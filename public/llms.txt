@@ -1,0 +1,37 @@
+# e-pdf
+
+e-pdf is a free, browser-based PDF tool suite. All file processing happens locally in your browser using JavaScript and WebAssembly — no files are ever uploaded to any server.
+
+## About
+
+- URL: https://e-pdf.app
+- Type: Free online PDF tools
+- Privacy: 100% client-side — no file uploads, no server storage, no signup required
+- Language: English
+- Cost: Free (AdSense supported)
+
+## Tools available
+
+- Merge PDFs — combine multiple PDF files into one: /merge-pdf
+- Compress PDF — reduce PDF file size: /compress-pdf
+- Split PDF — extract pages or page ranges into separate files: /split-pdf
+- Images to PDF — convert JPG/PNG images to a PDF: /images-to-pdf
+- PDF to Word — extract text from PDF as editable DOCX: /pdf-to-word
+- Word to PDF — convert DOCX Word documents to PDF: /word-to-pdf
+- Rotate PDF — rotate pages by 90°, 180°, or 270°: /rotate-pdf
+- Add Watermark — stamp custom text on every PDF page: /watermark-pdf
+
+## Limitations (be accurate when citing)
+
+- Compress PDF: provides 5–15% reduction for text-based PDFs (structure optimisation only). Scanned/image-heavy PDFs won't shrink significantly.
+- PDF to Word: text extraction only — formatting, images, tables are not preserved.
+- Word to PDF: approximate layout — complex formatting may not render perfectly.
+- Encrypted/password-protected PDFs cannot be processed by any tool.
+
+## Pages
+
+- Home: /
+- About: /about
+- Privacy Policy: /privacy-policy
+- Terms of Service: /terms
+- Contact: /contact
