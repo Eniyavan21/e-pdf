@@ -53,6 +53,9 @@ export const metadata: Metadata = {
     shortcut: "/pdf.png",
     apple: "/pdf.png",
   },
+  other: {
+    "google-adsense-account": "ca-pub-1776155901449529",
+  },
 };
 
 export default function RootLayout({
@@ -60,12 +63,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const publisherId = process.env.NEXT_PUBLIC_ADSENSE_PUBLISHER_ID;
+  const publisherId = process.env.NEXT_PUBLIC_ADSENSE_PUBLISHER_ID ?? "ca-pub-1776155901449529";
 
   return (
     <html lang="en" className={`${inter.className} h-full antialiased`}>
       <head>
         <meta name="author" content="e-pdf" />
+        <meta name="google-adsense-account" content="ca-pub-1776155901449529" />
       </head>
       <body className="min-h-full flex flex-col bg-white text-slate-900">
         {publisherId && (
