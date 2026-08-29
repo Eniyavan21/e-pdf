@@ -3,11 +3,12 @@ import { Inter } from "next/font/google";
 import Script from "next/script";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import CookieConsent from "@/components/CookieConsent";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://e-pdf.app";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://e-pdf.online";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -78,6 +79,7 @@ export default function RootLayout({
         <Navbar />
         <div className="flex-1">{children}</div>
         <Footer />
+        <CookieConsent />
       </body>
     </html>
   );

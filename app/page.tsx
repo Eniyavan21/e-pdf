@@ -117,7 +117,7 @@ const tools = [
   },
 ];
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://e-pdf.app";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://e-pdf.online";
 
 const jsonLd = [
   {

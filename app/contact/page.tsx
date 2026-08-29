@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import JsonLd from "@/components/JsonLd";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://e-pdf.app";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://e-pdf.online";
 
 export const metadata: Metadata = {
   title: "Contact e-pdf",
@@ -30,10 +30,10 @@ export default function ContactPage() {
           <div>
             <h2 className="font-semibold text-slate-800 mb-1">Email us</h2>
             <a
-              href="mailto:hello@e-pdf.app"
+              href="mailto:eniyavanksb@gmail.com"
               className="text-blue-600 hover:underline text-sm"
             >
-              hello@e-pdf.app
+              eniyavanksb@gmail.com
             </a>
           </div>
 
