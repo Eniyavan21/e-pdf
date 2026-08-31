@@ -53,6 +53,9 @@ export const metadata: Metadata = {
     shortcut: "/pdf.png",
     apple: "/pdf.png",
   },
+  verification: {
+    google: "FCAaPoBzz0NsckrrXu-DEDi4FLi_JRcSjYYkDG16_m0",
+  },
   other: {
     "google-adsense-account": "ca-pub-1776155901449529",
   },
@@ -70,6 +73,7 @@ export default function RootLayout({
       <head>
         <meta name="author" content="e-pdf" />
         <meta name="google-adsense-account" content="ca-pub-1776155901449529" />
+        <meta name="google-site-verification" content="FCAaPoBzz0NsckrrXu-DEDi4FLi_JRcSjYYkDG16_m0" />
       </head>
       <body className="min-h-full flex flex-col bg-white text-slate-900">
         {publisherId && (
